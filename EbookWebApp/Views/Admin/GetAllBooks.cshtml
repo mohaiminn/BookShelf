@@ -1,0 +1,76 @@
+﻿@model IEnumerable<MyApp.Models.BooksModel>
+
+@{
+    ViewBag.Title = "GetAllBooks";
+}
+
+<br />
+<br />
+<h2 class="text-center" style="background-color:antiquewhite; color:black;">Book Collection</h2>
+
+@if (User.IsInRole("Admin"))
+{
+    }
+
+<button type="button" class="btn btn-primary" style="margin-left:16px;">
+
+    @Html.ActionLink("Add New", "AddBook", "Admin", null, new { @style = "color:white" })
+
+</button>
+    
+    <br />
+    <br />
+
+    <div class="container" style="margin:auto">
+        <table class="table table-responsive" style="border:dashed thin #00ffff">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Writer)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.BookDetail)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Writer)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.BookDetail)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @if (User.IsInRole("Admin"))
+                        {
+
+                        }
+                        @Html.ActionLink("Update |", "Update", new { id = item.Id })
+                        @Html.ActionLink("Delete |", "Delete", new { id = item.Id })
+                        @Html.ActionLink("Buy", "Buy", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+
+        </table>
+        <button type="button" class="btn btn-primary" style="margin-left:5px;">
+
+            @Html.ActionLink("Get All Order List", "GetOrders", "Admin", null, new { @style = "color:white" })
+
+        </button>
+
+    </div>

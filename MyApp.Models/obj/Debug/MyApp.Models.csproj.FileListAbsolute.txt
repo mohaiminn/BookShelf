@@ -1,0 +1,6 @@
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\MyApp.Models\bin\Debug\MyApp.Models.dll
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\MyApp.Models\bin\Debug\MyApp.Models.pdb
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\MyApp.Models\obj\Debug\MyApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\MyApp.Models\obj\Debug\MyApp.Models.dll
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\MyApp.Models\obj\Debug\MyApp.Models.pdb
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\MyApp.Models\obj\Debug\MyApp.Models.csprojAssemblyReference.cache

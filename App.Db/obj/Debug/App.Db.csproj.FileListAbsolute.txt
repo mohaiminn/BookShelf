@@ -1,0 +1,14 @@
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\bin\Debug\App.Db.dll
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\bin\Debug\App.Db.pdb
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\obj\Debug\App.Db.csprojAssemblyReference.cache
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\obj\Debug\App.Db.csproj.CoreCompileInputs.cache
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\obj\Debug\App.Db.dll
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\obj\Debug\App.Db.pdb
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\bin\Debug\App.Db.dll.config
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\bin\Debug\EntityFramework.dll
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\bin\Debug\EntityFramework.xml
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\obj\Debug\App.Db.csproj.CopyComplete
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\bin\Debug\MyApp.Models.dll
+C:\Users\SEVEN86 COMPUTERS\source\repos\EbookWebApp\App.Db\bin\Debug\MyApp.Models.pdb

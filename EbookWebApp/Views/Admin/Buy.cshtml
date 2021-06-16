@@ -1,0 +1,61 @@
+﻿@model MyApp.Models.BooksModel
+
+@{
+    ViewBag.Title = "Product";
+}
+
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Writer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Writer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BookDetail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BookDetail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    
+    @Html.ActionLink("Back to List", "GetAllBooks")
+</p>
+@using (Html.BeginForm())
+{
+    <label for="BuyOption">Available Purchase Options</label>
+    <select id="BuyOption">
+        <option>PDF Format</option>
+        <option>CD</option>
+        <option>Hard Copy</option>
+    </select>
+    <p>Note : Delivery charges are applicable for opting "CD" & "Hard Copy" Option</p>
+    <button type="submit" class="btn btn-primary">@Html.ActionLink("Click to Confirm","ConfirmOrder", null, new { @style = "color:white" })</button>
+}
+</br></br>
